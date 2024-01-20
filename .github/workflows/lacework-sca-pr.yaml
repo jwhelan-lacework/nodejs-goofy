@@ -54,5 +54,5 @@ jobs:
         id: code-analysis
         uses: lacework/code-security-action@v1
         with:
-          token: ${{ secrets.JW_GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
